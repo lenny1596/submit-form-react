@@ -169,6 +169,7 @@ const App = () => {
               setFormData({ ...formData, about: e.target.value })
             }
           ></textarea>
+          {/* submit button */}
           <button type="submit" value="submit" onClick={handleSubmit}>
             Submit Form
           </button>
