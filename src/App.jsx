@@ -162,7 +162,7 @@ const App = () => {
             name="about"
             id="about"
             cols="30"
-            rows="10"
+            rows="8"
             placeholder="Say Something Here"
             required
             onChange={(e) =>

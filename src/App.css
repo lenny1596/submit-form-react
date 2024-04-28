@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+.App {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+fieldset {
+    border: none;
+}
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+    color: #327c35;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+input[type="checkbox"] {
+    width: 9%;
+    display: inline;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #327c35;   
+}
